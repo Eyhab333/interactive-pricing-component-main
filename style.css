@@ -188,6 +188,9 @@ ul {
   main section .grid .slider {
     margin-bottom: 40px;
   }
+  main section .dnone {
+    display: none;
+  }
   main section .monthly-flex {
     display: flex;
     align-items: center;
@@ -197,14 +200,6 @@ ul {
     /* Hide default HTML checkbox */
     /* The slider */
     /* Rounded sliders */
-  }
-  main section .monthly-flex label {
-    font-weight: 600;
-    font-size: 12px;
-    line-height: 16px;
-    text-align: center;
-    color: #848ead;
-    margin-right: 12px;
   }
   main section .monthly-flex input {
     margin-right: 12px;
@@ -529,6 +524,9 @@ ul {
     background: #feede8;
     border-radius: 9.5px;
     padding: 2px 6px 3px 7px;
+  }
+  main section .dnone {
+    display: none;
   }
   main section hr {
     border-top: #ecf0fb 1px solid;

@@ -206,25 +206,20 @@ ul {
         }
         // =============================
       }
-
+      .dnone {
+        display: none;
+      }
       .monthly-flex {
         display: flex;
         align-items: center;
         justify-content: center;
         margin-bottom: 38px;
 
-        label {
-          font-weight: 600;
-          font-size: 12px;
-          line-height: 16px;
-          text-align: center;
-          color: #848ead;
-          margin-right: 12px;
-        }
-
         input {
           margin-right: 12px;
         }
+
+        
         // =======================
         /* The switch - the box around the slider */
         .switch {
@@ -590,6 +585,8 @@ ul {
         .slider.round:before {
           border-radius: 50%;
         }
+
+        
         // ===========================
         p {
           font-weight: 600;
@@ -610,6 +607,10 @@ ul {
           border-radius: 9.5px;
           padding: 2px 6px 3px 7px;
         }
+      }
+      
+      .dnone {
+        display: none;
       }
 
       hr {
