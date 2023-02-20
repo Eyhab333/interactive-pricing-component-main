@@ -483,7 +483,7 @@ ul {
   main section .monthly-flex {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     margin-bottom: 38px;
     /* The switch - the box around the slider */
     /* Hide default HTML checkbox */
@@ -496,7 +496,7 @@ ul {
     line-height: 16px;
     text-align: center;
     color: #848ead;
-    margin-right: 12px;
+    margin-right: 16px;
   }
   main section .monthly-flex input {
     margin-right: 12px;
@@ -553,7 +553,7 @@ ul {
     line-height: 16px;
     text-align: center;
     color: #848ead;
-    margin-right: 9px;
+    margin-right: 16px;
   }
   main section .monthly-flex .discount {
     font-weight: 800;
@@ -569,7 +569,7 @@ ul {
     display: none;
   }
   main section hr {
-    border-top: #ecf0fb 1px solid;
+    border: hsla(224deg, 65%, 95%, 0.3) 1px solid;
   }
   main section .unlimited-and-button-flex {
     display: flex;
